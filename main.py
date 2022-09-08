@@ -1,13 +1,7 @@
-from operator import truediv
+a = int(input ('Введите цифру '))
 
+if a < 5:
+  print ("Hello")
 
-print('Hello Git')
-
-def main():
-  pass
-
-a = True
-if a:
-  print('b')
-  
-# Копия 
+else: 
+  print("Goodbye")
